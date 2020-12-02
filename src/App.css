@@ -1,38 +1,138 @@
-.App {
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+/* form section */
+
+.formSection {
+  height: 100vh;
+  background: url("./assets/bg-picture.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+h1 {
+  padding: 25px;
+  font-size: 4.2rem;
+  background-color: rgba(162, 49, 38, 0.75);
+  border: white 5px solid;
+  margin: 0px;
+}
+
+label {
+  font-size: 2.2rem;
+  padding: 10px;
+  background-color: teal;
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(162, 49, 38);
+  border: white 5px solid;
+}
+
+input[type="text"] {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  font-size: 1.6rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  padding: 5px;
+}
+
+.input {
+  margin-top: 20px;
+}
+
+/* results section */
+
+.results {
+  background-color: rgb(36, 62, 75);
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  background-color: rgba(162, 49, 38, 0.75);
+  border: white 5px solid;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.foodList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.foodItem {
+  margin: 25px 15px;
+  padding: 15px;
+  background-color: rgb(162, 49, 38);
+  border: white 5px solid;
+  width: calc((100% / 2) - 60px);
+  min-width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nutrients {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* button styling */
+
+button {
+  margin-top: 20px;
+  font-size: 2.2rem;
+  width: 200px;
+  padding: 10px 0px;
+  background-color: rgb(158, 187, 192);
+  border: 5px solid rgb(158, 187, 192);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover,
+button:focus {
+  background-color: rgb(162, 49, 38);
 }
