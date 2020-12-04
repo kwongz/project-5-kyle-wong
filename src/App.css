@@ -16,6 +16,12 @@ ul {
   margin: 0px;
 }
 
+p {
+  font-size: 2.2rem;
+  line-height: 52px;
+  margin: 0px;
+}
+
 .wrapper {
   max-width: 1200px;
   width: 90%;
@@ -91,7 +97,8 @@ input[type="text"] {
 
 h2 {
   text-align: center;
-  font-size: 3.2rem;
+  padding: 15px 0px;
+  font-size: 2.8rem;
   text-transform: capitalize;
   background-color: rgba(162, 49, 38, 0.75);
   border: white 5px solid;
@@ -158,17 +165,12 @@ button:focus {
 
 .errorAlert h2 {
   width: 100%;
-}
-
-.errorAlert p {
-  font-size: 2.2rem;
-  margin: 0px;
-  line-height: 52px;
+  padding: 10px 10px;
 }
 
 .errorAlert div {
   background-color: rgb(158, 187, 192);
-  padding: 20px 0px;
+  padding: 20px 10px;
   border: 5px solid white;
 }
 
@@ -180,11 +182,40 @@ button:focus {
   .nutrients li span {
     font-size: 1.8rem;
   }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    width: 200px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  button {
+    font-size: 1.6rem;
+    width: 150px;
+  }
 }
 
 @media (max-width: 724px) {
   h1 {
     font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    width: 200px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 40px;
   }
 
   h1,
@@ -197,8 +228,19 @@ button:focus {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
+  h1,
+  form {
+    width: 300px;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .foodItem {
+    min-width: 280px;
+  }
+
   .nutrients li span {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }

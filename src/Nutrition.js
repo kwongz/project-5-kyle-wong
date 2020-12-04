@@ -121,7 +121,7 @@ class Nutrition extends Component {
                                 type="text"
                                 id="food"
                                 onChange={this.handleOnChange}
-                                placeholder="1 Large Apple or 200g Chicken"
+                                placeholder="1 Large Apple"
                                 autoComplete="off"
                                 value={this.state.userInput}
                                 />
