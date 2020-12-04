@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/project-5-kyle-wong/static/css/main.b1bc90a5.chunk.css",
-    "main.js": "/project-5-kyle-wong/static/js/main.abce52ae.chunk.js",
-    "main.js.map": "/project-5-kyle-wong/static/js/main.abce52ae.chunk.js.map",
-    "runtime-main.js": "/project-5-kyle-wong/static/js/runtime-main.d6e9ca63.js",
-    "runtime-main.js.map": "/project-5-kyle-wong/static/js/runtime-main.d6e9ca63.js.map",
-    "static/js/2.bab4845d.chunk.js": "/project-5-kyle-wong/static/js/2.bab4845d.chunk.js",
-    "static/js/2.bab4845d.chunk.js.map": "/project-5-kyle-wong/static/js/2.bab4845d.chunk.js.map",
-    "static/js/3.2030da1e.chunk.js": "/project-5-kyle-wong/static/js/3.2030da1e.chunk.js",
-    "static/js/3.2030da1e.chunk.js.map": "/project-5-kyle-wong/static/js/3.2030da1e.chunk.js.map",
+    "main.css": "/project-5-kyle-wong/static/css/main.f66de738.chunk.css",
+    "main.js": "/project-5-kyle-wong/static/js/main.6a834779.chunk.js",
+    "main.js.map": "/project-5-kyle-wong/static/js/main.6a834779.chunk.js.map",
+    "runtime-main.js": "/project-5-kyle-wong/static/js/runtime-main.c7fdd026.js",
+    "runtime-main.js.map": "/project-5-kyle-wong/static/js/runtime-main.c7fdd026.js.map",
+    "static/js/2.4efd9ce4.chunk.js": "/project-5-kyle-wong/static/js/2.4efd9ce4.chunk.js",
+    "static/js/2.4efd9ce4.chunk.js.map": "/project-5-kyle-wong/static/js/2.4efd9ce4.chunk.js.map",
+    "static/js/3.e6488614.chunk.js": "/project-5-kyle-wong/static/js/3.e6488614.chunk.js",
+    "static/js/3.e6488614.chunk.js.map": "/project-5-kyle-wong/static/js/3.e6488614.chunk.js.map",
     "index.html": "/project-5-kyle-wong/index.html",
-    "static/css/main.b1bc90a5.chunk.css.map": "/project-5-kyle-wong/static/css/main.b1bc90a5.chunk.css.map",
-    "static/js/2.bab4845d.chunk.js.LICENSE.txt": "/project-5-kyle-wong/static/js/2.bab4845d.chunk.js.LICENSE.txt",
+    "static/css/main.f66de738.chunk.css.map": "/project-5-kyle-wong/static/css/main.f66de738.chunk.css.map",
+    "static/js/2.4efd9ce4.chunk.js.LICENSE.txt": "/project-5-kyle-wong/static/js/2.4efd9ce4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/project-5-kyle-wong/static/media/bg-picture.d86ed370.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6e9ca63.js",
-    "static/js/2.bab4845d.chunk.js",
-    "static/css/main.b1bc90a5.chunk.css",
-    "static/js/main.abce52ae.chunk.js"
+    "static/js/runtime-main.c7fdd026.js",
+    "static/js/2.4efd9ce4.chunk.js",
+    "static/css/main.f66de738.chunk.css",
+    "static/js/main.6a834779.chunk.js"
   ]
 }
