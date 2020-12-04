@@ -101,7 +101,6 @@ optgroup,
 select,
 textarea {
   font-family: sans-serif;
-  font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
@@ -209,7 +208,7 @@ html {
   box-sizing: inherit;
 }
 
-.sr-only {
+.srOnly {
   position: absolute;
   width: 1px;
   height: 1px;
